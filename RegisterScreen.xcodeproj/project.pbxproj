@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE87AB8627BEA926007E5C48 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE87AB8527BEA926007E5C48 /* SecondViewController.swift */; };
 		FEC6112F27BDEC2A00E4D954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC6112E27BDEC2A00E4D954 /* AppDelegate.swift */; };
 		FEC6113127BDEC2A00E4D954 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC6113027BDEC2A00E4D954 /* SceneDelegate.swift */; };
 		FEC6113327BDEC2A00E4D954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC6113227BDEC2A00E4D954 /* ViewController.swift */; };
@@ -14,10 +15,11 @@
 		FEC6113827BDEC2C00E4D954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC6113727BDEC2C00E4D954 /* Assets.xcassets */; };
 		FEC6113B27BDEC2C00E4D954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC6113927BDEC2C00E4D954 /* LaunchScreen.storyboard */; };
 		FEC6114327BDF1C800E4D954 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC6114227BDF1C800E4D954 /* CustomTextField.swift */; };
-		FEC6114527BDF4A000E4D954 /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC6114427BDF4A000E4D954 /* SignUpButton.swift */; };
+		FEC6114527BDF4A000E4D954 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC6114427BDF4A000E4D954 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE87AB8527BEA926007E5C48 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		FEC6112B27BDEC2A00E4D954 /* RegisterScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegisterScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC6112E27BDEC2A00E4D954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEC6113027BDEC2A00E4D954 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +29,7 @@
 		FEC6113A27BDEC2C00E4D954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEC6113C27BDEC2C00E4D954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEC6114227BDF1C800E4D954 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		FEC6114427BDF4A000E4D954 /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
+		FEC6114427BDF4A000E4D954 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +66,12 @@
 				FEC6113027BDEC2A00E4D954 /* SceneDelegate.swift */,
 				FEC6113227BDEC2A00E4D954 /* ViewController.swift */,
 				FEC6113427BDEC2A00E4D954 /* Main.storyboard */,
-				FEC6114427BDF4A000E4D954 /* SignUpButton.swift */,
+				FEC6114427BDF4A000E4D954 /* CustomButton.swift */,
 				FEC6114227BDF1C800E4D954 /* CustomTextField.swift */,
 				FEC6113727BDEC2C00E4D954 /* Assets.xcassets */,
 				FEC6113927BDEC2C00E4D954 /* LaunchScreen.storyboard */,
 				FEC6113C27BDEC2C00E4D954 /* Info.plist */,
+				FE87AB8527BEA926007E5C48 /* SecondViewController.swift */,
 			);
 			path = RegisterScreen;
 			sourceTree = "<group>";
@@ -144,11 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE87AB8627BEA926007E5C48 /* SecondViewController.swift in Sources */,
 				FEC6114327BDF1C800E4D954 /* CustomTextField.swift in Sources */,
 				FEC6113327BDEC2A00E4D954 /* ViewController.swift in Sources */,
 				FEC6112F27BDEC2A00E4D954 /* AppDelegate.swift in Sources */,
 				FEC6113127BDEC2A00E4D954 /* SceneDelegate.swift in Sources */,
-				FEC6114527BDF4A000E4D954 /* SignUpButton.swift in Sources */,
+				FEC6114527BDF4A000E4D954 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

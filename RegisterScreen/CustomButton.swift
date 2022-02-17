@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SignUpButton: UIButton {
+class Button: UIButton {
 
     override func awakeFromNib() {
         super.awakeFromNib()
