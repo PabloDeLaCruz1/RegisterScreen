@@ -13,6 +13,8 @@
 		FEC6113627BDEC2A00E4D954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC6113427BDEC2A00E4D954 /* Main.storyboard */; };
 		FEC6113827BDEC2C00E4D954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC6113727BDEC2C00E4D954 /* Assets.xcassets */; };
 		FEC6113B27BDEC2C00E4D954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC6113927BDEC2C00E4D954 /* LaunchScreen.storyboard */; };
+		FEC6114327BDF1C800E4D954 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC6114227BDF1C800E4D954 /* CustomTextField.swift */; };
+		FEC6114527BDF4A000E4D954 /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC6114427BDF4A000E4D954 /* SignUpButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FEC6113727BDEC2C00E4D954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEC6113A27BDEC2C00E4D954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEC6113C27BDEC2C00E4D954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEC6114227BDF1C800E4D954 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		FEC6114427BDF4A000E4D954 /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FEC6113027BDEC2A00E4D954 /* SceneDelegate.swift */,
 				FEC6113227BDEC2A00E4D954 /* ViewController.swift */,
 				FEC6113427BDEC2A00E4D954 /* Main.storyboard */,
+				FEC6114427BDF4A000E4D954 /* SignUpButton.swift */,
+				FEC6114227BDF1C800E4D954 /* CustomTextField.swift */,
 				FEC6113727BDEC2C00E4D954 /* Assets.xcassets */,
 				FEC6113927BDEC2C00E4D954 /* LaunchScreen.storyboard */,
 				FEC6113C27BDEC2C00E4D954 /* Info.plist */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEC6114327BDF1C800E4D954 /* CustomTextField.swift in Sources */,
 				FEC6113327BDEC2A00E4D954 /* ViewController.swift in Sources */,
 				FEC6112F27BDEC2A00E4D954 /* AppDelegate.swift in Sources */,
 				FEC6113127BDEC2A00E4D954 /* SceneDelegate.swift in Sources */,
+				FEC6114527BDF4A000E4D954 /* SignUpButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,195 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RegisterScreen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="f2n-CT-kQ3">
+                                <rect key="frame" x="20" y="84" width="374" height="712"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eJz-oz-RS3">
+                                        <rect key="frame" x="10" y="0.0" width="354" height="37"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Las Playas Resort" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S2g-Nj-QIM">
+                                                <rect key="frame" x="59.5" y="0.0" width="235.5" height="37"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                                <color key="textColor" red="0.5607843137254902" green="0.12156862745098039" blue="0.082352941176470587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YSO-Fv-VHH">
+                                        <rect key="frame" x="100" y="166.5" width="174" height="20.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVB-yL-ovS">
+                                                <rect key="frame" x="0.0" y="0.0" width="174" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="jQ2-vn-QQY">
+                                        <rect key="frame" x="20" y="316.5" width="334" height="235"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="l0r-r6-Laa">
+                                                <rect key="frame" x="10" y="0.0" width="314" height="31"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uey-aL-tS3" customClass="CustomTextField" customModule="RegisterScreen" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="314" height="31"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="31" id="rzO-0j-oFx"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="uey-aL-tS3" secondAttribute="trailing" id="6OT-VQ-zmF"/>
+                                                    <constraint firstItem="uey-aL-tS3" firstAttribute="leading" secondItem="l0r-r6-Laa" secondAttribute="leading" id="QFG-uu-9G1"/>
+                                                    <constraint firstAttribute="trailing" secondItem="uey-aL-tS3" secondAttribute="trailing" id="Tjd-fM-ucr"/>
+                                                    <constraint firstItem="uey-aL-tS3" firstAttribute="leading" secondItem="l0r-r6-Laa" secondAttribute="leading" id="eWe-Lr-WY1"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Sv8-dT-Ky8">
+                                                <rect key="frame" x="10" y="51" width="314" height="31"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="axG-zX-WIb" customClass="CustomTextField" customModule="RegisterScreen" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="314" height="31"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="31" id="BJM-dX-01Y"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="axG-zX-WIb" firstAttribute="leading" secondItem="Sv8-dT-Ky8" secondAttribute="leading" id="3g9-nY-MGm"/>
+                                                    <constraint firstAttribute="trailing" secondItem="axG-zX-WIb" secondAttribute="trailing" id="RDn-WP-dGR"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ovd-nb-heM">
+                                                <rect key="frame" x="10" y="102" width="314" height="31"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NPc-lq-Vi8" customClass="CustomTextField" customModule="RegisterScreen" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="314" height="31"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="31" id="uUF-ER-MxZ"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="NPc-lq-Vi8" secondAttribute="trailing" id="Wfe-oP-lHj"/>
+                                                    <constraint firstItem="NPc-lq-Vi8" firstAttribute="leading" secondItem="ovd-nb-heM" secondAttribute="leading" id="fIV-VA-rSh"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="U8P-Ge-Nfe">
+                                                <rect key="frame" x="10" y="153" width="314" height="31"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9bA-aj-wKh" customClass="CustomTextField" customModule="RegisterScreen" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="314" height="31"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="31" id="L6B-Xo-L7N"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="9bA-aj-wKh" firstAttribute="leading" secondItem="U8P-Ge-Nfe" secondAttribute="leading" id="GCD-ZO-LfU"/>
+                                                    <constraint firstAttribute="trailing" secondItem="9bA-aj-wKh" secondAttribute="trailing" id="sKh-PQ-vIr"/>
+                                                </constraints>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rHk-Sp-1aG">
+                                                <rect key="frame" x="10" y="204" width="314" height="31"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SgS-zk-Jz6" customClass="CustomTextField" customModule="RegisterScreen" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="314" height="31"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="31" id="DAe-k3-CY8"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="SgS-zk-Jz6" firstAttribute="leading" secondItem="rHk-Sp-1aG" secondAttribute="leading" id="794-pf-ZOH"/>
+                                                    <constraint firstAttribute="trailing" secondItem="SgS-zk-Jz6" secondAttribute="trailing" id="9Tg-eV-FzE"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="ovd-nb-heM" firstAttribute="leading" secondItem="jQ2-vn-QQY" secondAttribute="leading" constant="10" id="40D-pI-Dte"/>
+                                            <constraint firstAttribute="trailing" secondItem="Sv8-dT-Ky8" secondAttribute="trailing" constant="10" id="5hL-hr-eWp"/>
+                                            <constraint firstItem="U8P-Ge-Nfe" firstAttribute="leading" secondItem="jQ2-vn-QQY" secondAttribute="leading" constant="10" id="8KS-wp-mpG"/>
+                                            <constraint firstItem="l0r-r6-Laa" firstAttribute="leading" secondItem="jQ2-vn-QQY" secondAttribute="leading" constant="10" id="UoG-oX-z36"/>
+                                            <constraint firstAttribute="trailing" secondItem="ovd-nb-heM" secondAttribute="trailing" constant="10" id="VuO-bZ-thR"/>
+                                            <constraint firstItem="Sv8-dT-Ky8" firstAttribute="leading" secondItem="jQ2-vn-QQY" secondAttribute="leading" constant="10" id="iB8-94-oYr"/>
+                                            <constraint firstAttribute="trailing" secondItem="l0r-r6-Laa" secondAttribute="trailing" constant="10" id="m3T-bg-Mkx"/>
+                                            <constraint firstAttribute="trailing" secondItem="rHk-Sp-1aG" secondAttribute="trailing" constant="10" id="nsk-yn-hJs"/>
+                                            <constraint firstAttribute="trailing" secondItem="U8P-Ge-Nfe" secondAttribute="trailing" constant="10" id="wjm-JS-634"/>
+                                            <constraint firstItem="rHk-Sp-1aG" firstAttribute="leading" secondItem="jQ2-vn-QQY" secondAttribute="leading" constant="10" id="xZD-Rt-B7w"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2nX-BB-Zp6">
+                                        <rect key="frame" x="10" y="681" width="354" height="31"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dq2-KK-vto" customClass="SignUpButton" customModule="RegisterScreen" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="354" height="31"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="Dq2-KK-vto" secondAttribute="trailing" id="Br2-Zt-vJu"/>
+                                            <constraint firstItem="Dq2-KK-vto" firstAttribute="leading" secondItem="2nX-BB-Zp6" secondAttribute="leading" id="xym-K4-ubU"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="2nX-BB-Zp6" secondAttribute="trailing" constant="10" id="Aok-my-fXk"/>
+                                    <constraint firstAttribute="trailing" secondItem="eJz-oz-RS3" secondAttribute="trailing" constant="10" id="J5e-PE-Bfa"/>
+                                    <constraint firstItem="jQ2-vn-QQY" firstAttribute="leading" secondItem="f2n-CT-kQ3" secondAttribute="leading" constant="20" id="Ms5-Gc-zGK"/>
+                                    <constraint firstItem="eJz-oz-RS3" firstAttribute="top" secondItem="f2n-CT-kQ3" secondAttribute="top" id="V5C-Ig-5F2"/>
+                                    <constraint firstItem="YSO-Fv-VHH" firstAttribute="leading" secondItem="f2n-CT-kQ3" secondAttribute="leading" constant="100" id="WUQ-pP-aQ5"/>
+                                    <constraint firstItem="2nX-BB-Zp6" firstAttribute="leading" secondItem="f2n-CT-kQ3" secondAttribute="leading" constant="10" id="WkM-PT-7Qu"/>
+                                    <constraint firstItem="eJz-oz-RS3" firstAttribute="leading" secondItem="f2n-CT-kQ3" secondAttribute="leading" constant="10" id="YWx-9E-a6T"/>
+                                    <constraint firstAttribute="trailing" secondItem="jQ2-vn-QQY" secondAttribute="trailing" constant="20" id="bAY-KY-57c"/>
+                                    <constraint firstAttribute="trailing" secondItem="YSO-Fv-VHH" secondAttribute="trailing" constant="100" id="tFv-sp-oeC"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="leh-Mz-FLA">
+                                <rect key="frame" x="10" y="836" width="394" height="16"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-- Have an account? Please Sign In -- " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Nz-Pw-W0o">
+                                        <rect key="frame" x="81.5" y="0.0" width="231" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="leh-Mz-FLA" secondAttribute="bottom" constant="10" id="01N-uO-q9W"/>
+                            <constraint firstItem="f2n-CT-kQ3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3D5-Mr-mla"/>
+                            <constraint firstItem="leh-Mz-FLA" firstAttribute="top" secondItem="f2n-CT-kQ3" secondAttribute="bottom" constant="40" id="IzS-T0-iUk"/>
+                            <constraint firstItem="f2n-CT-kQ3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="KoO-E7-AUH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f2n-CT-kQ3" secondAttribute="trailing" constant="20" id="Y6Q-CM-q79"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="leh-Mz-FLA" secondAttribute="trailing" constant="10" id="ftc-iR-n2V"/>
+                            <constraint firstItem="leh-Mz-FLA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="fzX-b2-UBi"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="634.78260869565224" y="91.741071428571431"/>
         </scene>
     </scenes>
 </document>
