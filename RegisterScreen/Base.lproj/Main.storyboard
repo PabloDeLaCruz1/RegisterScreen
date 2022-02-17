@@ -15,11 +15,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="f2n-CT-kQ3">
-                                <rect key="frame" x="20" y="84" width="374" height="712"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="f2n-CT-kQ3">
+                                <rect key="frame" x="20" y="84" width="374" height="407.5"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eJz-oz-RS3">
-                                        <rect key="frame" x="10" y="0.0" width="354" height="37"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="eJz-oz-RS3">
+                                        <rect key="frame" x="10" y="0.0" width="354" height="68.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Las Playas Resort" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S2g-Nj-QIM">
                                                 <rect key="frame" x="59.5" y="0.0" width="235.5" height="37"/>
@@ -27,13 +27,8 @@
                                                 <color key="textColor" red="0.5607843137254902" green="0.12156862745098039" blue="0.082352941176470587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YSO-Fv-VHH">
-                                        <rect key="frame" x="100" y="166.5" width="174" height="20.5"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVB-yL-ovS">
-                                                <rect key="frame" x="0.0" y="0.0" width="174" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVB-yL-ovS">
+                                                <rect key="frame" x="145.5" y="48" width="63" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -41,7 +36,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="jQ2-vn-QQY">
-                                        <rect key="frame" x="20" y="316.5" width="334" height="235"/>
+                                        <rect key="frame" x="20" y="99.5" width="334" height="235"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="l0r-r6-Laa">
                                                 <rect key="frame" x="10" y="0.0" width="314" height="31"/>
@@ -51,7 +46,8 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="31" id="rzO-0j-oFx"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <color key="textColor" red="0.56078431370000004" green="0.1215686275" blue="0.08235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="0.0"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
@@ -70,7 +66,8 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="31" id="BJM-dX-01Y"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <color key="textColor" red="0.56078431370000004" green="0.1215686275" blue="0.08235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="0.0"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
@@ -87,7 +84,8 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="31" id="uUF-ER-MxZ"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <color key="textColor" red="0.56078431370000004" green="0.1215686275" blue="0.08235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="0.0"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
@@ -104,8 +102,9 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="31" id="L6B-Xo-L7N"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <color key="textColor" red="0.56078431370000004" green="0.1215686275" blue="0.08235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="0.0"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
@@ -121,8 +120,9 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="31" id="DAe-k3-CY8"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <color key="textColor" red="0.56078431370000004" green="0.1215686275" blue="0.08235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="0.0"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
@@ -145,12 +145,18 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2nX-BB-Zp6">
-                                        <rect key="frame" x="10" y="681" width="354" height="31"/>
+                                        <rect key="frame" x="10" y="365.5" width="354" height="42"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dq2-KK-vto" customClass="SignUpButton" customModule="RegisterScreen" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="354" height="31"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="354" height="42"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="42" id="OmT-j8-ayB"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Sign Up">
+                                                    <color key="titleColor" red="0.56078431370000004" green="0.1215686275" blue="0.08235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -164,19 +170,17 @@
                                     <constraint firstAttribute="trailing" secondItem="eJz-oz-RS3" secondAttribute="trailing" constant="10" id="J5e-PE-Bfa"/>
                                     <constraint firstItem="jQ2-vn-QQY" firstAttribute="leading" secondItem="f2n-CT-kQ3" secondAttribute="leading" constant="20" id="Ms5-Gc-zGK"/>
                                     <constraint firstItem="eJz-oz-RS3" firstAttribute="top" secondItem="f2n-CT-kQ3" secondAttribute="top" id="V5C-Ig-5F2"/>
-                                    <constraint firstItem="YSO-Fv-VHH" firstAttribute="leading" secondItem="f2n-CT-kQ3" secondAttribute="leading" constant="100" id="WUQ-pP-aQ5"/>
                                     <constraint firstItem="2nX-BB-Zp6" firstAttribute="leading" secondItem="f2n-CT-kQ3" secondAttribute="leading" constant="10" id="WkM-PT-7Qu"/>
                                     <constraint firstItem="eJz-oz-RS3" firstAttribute="leading" secondItem="f2n-CT-kQ3" secondAttribute="leading" constant="10" id="YWx-9E-a6T"/>
                                     <constraint firstAttribute="trailing" secondItem="jQ2-vn-QQY" secondAttribute="trailing" constant="20" id="bAY-KY-57c"/>
-                                    <constraint firstAttribute="trailing" secondItem="YSO-Fv-VHH" secondAttribute="trailing" constant="100" id="tFv-sp-oeC"/>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="leh-Mz-FLA">
-                                <rect key="frame" x="10" y="836" width="394" height="16"/>
+                                <rect key="frame" x="10" y="531.5" width="394" height="320.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-- Have an account? Please Sign In -- " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Nz-Pw-W0o">
-                                        <rect key="frame" x="81.5" y="0.0" width="231" height="16"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <rect key="frame" x="81.5" y="0.0" width="231" height="320.5"/>
+                                        <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="0.0"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -184,7 +188,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.81016350174812524" green="0.88575289893879017" blue="0.90137959489918718" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="leh-Mz-FLA" secondAttribute="bottom" constant="10" id="01N-uO-q9W"/>
                             <constraint firstItem="f2n-CT-kQ3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3D5-Mr-mla"/>

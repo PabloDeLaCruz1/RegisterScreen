@@ -13,5 +13,7 @@ class SignUpButton: UIButton {
         super.awakeFromNib()
         
         layer.backgroundColor = UIColor(red: 247/255, green: 131/255, blue: 43/255, alpha: 1).cgColor
+        
+        layer.cornerRadius = 21
     }
 }
